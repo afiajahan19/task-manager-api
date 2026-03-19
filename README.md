@@ -1,21 +1,37 @@
 # Task Manager API 🚀
 
-A RESTful API built using Node.js, Express, and MongoDB.
+A RESTful API built using **Node.js, Express, and MongoDB**, deployed live on Render.
 
-## Features
-- Create Task
-- Get All Tasks
-- Update Task
-- Delete Task
-- Filter Tasks (completed / pending)
+---
 
-## Tech Stack
-- Node.js
-- Express.js
-- MongoDB
-- Mongoose
+## 🌐 Live API
 
-## API Endpoints
+Base URL:
+https://task-manager-api-82hj.onrender.com
+
+---
+
+## 🚀 Features
+
+- Create Task  
+- Get All Tasks  
+- Update Task  
+- Delete Task  
+- Filter Tasks (completed / pending)  
+
+---
+
+## 🛠️ Tech Stack
+
+- Node.js  
+- Express.js  
+- MongoDB Atlas  
+- Mongoose  
+- Render (Deployment)  
+
+---
+
+## 📌 API Endpoints
 
 | Method | Endpoint | Description |
 |--------|---------|------------|
@@ -25,18 +41,14 @@ A RESTful API built using Node.js, Express, and MongoDB.
 | PUT | /api/tasks/:id | Update task |
 | DELETE | /api/tasks/:id | Delete task |
 
-## Run Locally
-
-```bash
-npm install
-npx nodemon server.js
-
-
 ---
 
-## ✅ 3. Push Changes Again
+## 🧪 Example Request
 
-```bash id="m2k8dj"
-git add .
-git commit -m "Added README and gitignore"
-git push
+### Create Task
+
+```json
+{
+  "title": "Learn Backend",
+  "description": "Build API project"
+}
